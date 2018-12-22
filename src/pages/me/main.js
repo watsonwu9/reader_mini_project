@@ -4,3 +4,5 @@ App.mpType = 'app'
 const app = new Vue(Me)
 
 app.$mount()
+
+

@@ -15,13 +15,13 @@
         "list": [
           {
             "pagePath": "pages/me/main",
-            "text": "我的书单",
+            "text": "我的阅读",
             "iconPath": "./static/img/mine.png",
             "selectedIconPath": "./static/img/mine_fill.png"
           },
           {
             "pagePath": "pages/library/main",
-            "text": "发现",
+            "text": "更多好书",
             "iconPath": "./static/img/task.png",
             "selectedIconPath": "./static/img/task_fill.png"
           }

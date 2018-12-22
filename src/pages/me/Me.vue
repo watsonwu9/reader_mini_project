@@ -1,13 +1,18 @@
 <template>
-    <div>this is me</div>
+    <div>今年是{{year}}年</div>
 </template>
 
 
 <script>
 export default {
     created(){
-        console.log("We start up")
-    }
+        console.log("haha")
+    },
+    computed: {
+        year(){
+            return new Date().getFullYear()
+        }
+    },
 }
 </script>
 
