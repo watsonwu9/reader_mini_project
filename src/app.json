@@ -1,0 +1,32 @@
+{
+    "pages" :[
+        "pages/me/main",
+        "pages/library/main"
+    ],
+
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#2ab7ca",
+        "navigationBarTitleText": "好书纵享",
+        "navigationBarTextStyle": "light"
+      },
+      "tabBar": {
+        "selectedColor":"#2ab7ca",
+        "list": [
+          {
+            "pagePath": "pages/me/main",
+            "text": "我的书单",
+            "iconPath": "./static/img/mine.png",
+            "selectedIconPath": "./static/img/mine_fill.png"
+          },
+          {
+            "pagePath": "pages/library/main",
+            "text": "发现",
+            "iconPath": "./static/img/task.png",
+            "selectedIconPath": "./static/img/task_fill.png"
+          }
+        ]
+      }
+
+
+}
